@@ -110,6 +110,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Function.c" />
+    <ClCompile Include="TestMethod.c" />
+    <ClCompile Include="MyThread.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyThread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
